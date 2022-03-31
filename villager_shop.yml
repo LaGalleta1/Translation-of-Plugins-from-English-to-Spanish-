@@ -121,5 +121,5 @@ Shops:
         la dirección : lore:&7que el jugador esté viendo'
       - 'EMERALD : 2 :: BEACON : 1 : name:&6Especial - &aTienda : lore:&7Invoca una tienda
       en tus coordenadas : lore:&7La tienda desaparecerá en 15 segundos'
-      - 'EMERALD : 1 :: COMPASS : 1 : name:&6Especial - &aRastreador : lore:&7localiza a los
-        enemigos más cercanos'
+      - 'EMERALD : 1 :: COMPASS : 1 : name:&6Especial - &aRastreador : lore:&7localiza al
+        enemigo más cercano'
