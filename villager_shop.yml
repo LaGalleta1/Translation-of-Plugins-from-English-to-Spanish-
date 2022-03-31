@@ -1,0 +1,125 @@
+Shops:
+  Default:
+    Blocks:
+      name: '&aBloques'
+      display_item: WHITE_WOOL
+      lore:
+      - '&7Compra bloques para poder defenderte o avanzar hacia los enemigos'
+      items:
+      - 'IRON_INGOT : 4 :: WHITE_WOOL : 8'
+      - 'IRON_INGOT : 4 :: SANDSTONE : 4'
+      - 'IRON_INGOT : 1 :: GLASS : 1'
+      - 'IRON_INGOT : 1 :: GLOWSTONE : 2'
+      - 'IRON_INGOT : 2 :: HAY_BLOCK : 1'
+      - 'IRON_INGOT : 3 :: LADDER : 1'
+      - 'GOLD_INGOT : 10 :: OBSIDIAN : 1'
+    Weapons:
+      name: '&cArmas'
+      display_item: IRON_SWORD
+      lore:
+      - '&7Compra armas para poder defenderte'
+      items:
+      - 'IRON_INGOT : 5 :: WOOD_SWORD : 1'
+      - 'IRON_INGOT : 48 :: STONE_SWORD : 1'
+      - 'GOLD_INGOT : 16 :: IRON_SWORD : 1'
+      - 'DIAMOND : 16 :: DIAMOND_SWORD : 1'
+      - 'DIAMOND : 32 :: DIAMOND_SWORD : 1 : enchant:DAMAGE_ALL:2'
+    Armor:
+      name: '&bArmadura'
+      display_item: IRON_CHESTPLATE
+      lore:
+      - '&7Compra armadura para poder protegerte'
+      items:
+      - 'IRON_INGOT : 5 :: LEATHER_HELMET : 1'
+      - 'IRON_INGOT : 5 :: LEATHER_CHESTPLATE : 1'
+      - 'IRON_INGOT : 5 :: LEATHER_LEGGINGS : 1'
+      - 'IRON_INGOT : 5 :: LEATHER_BOOTS : 1'
+      - 'GOLD_INGOT : 20 :: CHAINMAIL_HELMET : 1'
+      - 'GOLD_INGOT : 20 :: CHAINMAIL_CHESTPLATE : 1'
+      - 'GOLD_INGOT : 20 :: CHAINMAIL_LEGGINGS : 1'
+      - 'GOLD_INGOT : 20 :: CHAINMAIL_BOOTS : 1'
+      - 'DIAMOND : 10 :: IRON_HELMET : 1'
+      - 'DIAMOND : 10 :: IRON_CHESTPLATE : 1'
+      - 'DIAMOND : 10 :: IRON_LEGGINGS : 1'
+      - 'DIAMOND : 10 :: IRON_BOOTS : 1'
+      - 'DIAMOND : 25 :: DIAMOND_HELMET : 1'
+      - 'DIAMOND : 25 :: DIAMOND_CHESTPLATE : 1'
+      - 'DIAMOND : 25 :: DIAMOND_LEGGINGS : 1'
+      - 'DIAMOND : 25 :: DIAMOND_BOOTS : 1'
+    Food:
+      name: '&6Comida'
+      display_item: CAKE
+      lore:
+      - '&7Compra comida para poder alimentarte en la batalla'
+      items:
+      - 'IRON_INGOT : 2 :: CARROT_ITEM : 5'
+      - 'IRON_INGOT : 3 :: COOKED_BEEF : 1'
+      - 'IRON_INGOT : 10 :: CAKE : 1'
+      - 'GOLD_INGOT : 5 :: GOLDEN_APPLE : 1'
+      - 'DIAMOND : 48 :: GOLDEN_APPLE:1 : 1'
+    Pickaxes:
+      name: '&3Picos'
+      display_item: DIAMOND_PICKAXE
+      lore:
+      - '&7Compra picos para poder minar bloques más facilmente'
+      items:
+      - 'IRON_INGOT : 10 :: WOOD_PICKAXE : 1 : enchant:EFFICIENCY:2'
+      - 'IRON_INGOT : 64 :: STONE_PICKAXE : 1 : enchant:EFFICIENCY:2'
+      - 'GOLD_INGOT : 32 :: IRON_PICKAXE : 1 : enchant:EFFICIENCY:2'
+      - 'DIAMOND : 16 :: DIAMOND_PICKAXE : 1 : enchant:EFFICIENCY:2'
+      - 'DIAMOND : 32 :: DIAMOND_PICKAXE : 1 : enchant:EFFICIENCY:3'
+      - 'DIAMOND : 48 :: DIAMOND_PICKAXE : 1 : enchant:EFFICIENCY:5'
+      - 'DIAMOND : 64 :: DIAMOND_PICKAXE : 1 : enchant:EFFICIENCY:6'
+    Archery:
+      name: '&cArquero'
+      display_item: BOW
+      lore:
+      - '&7¡Compra un arco y algunas flechas para poder matar a tus enemigos!'
+      items:
+      - 'DIAMOND : 16 :: BOW : 1 : enchant:POWER:1'
+      - 'DIAMOND : 32 :: BOW : 1 : enchant:POWER:3'
+      - 'DIAMOND : 48 :: BOW : 1 : enchant:POWER:4 : enchant:PUNCH:1'
+      - 'GOLD_INGOT : 1 :: ARROW : 1'
+    Chests:
+      name: '&eCofres'
+      display_item: CHEST
+      lore:
+      - '&7Compra un cofre para poder meter tus items dentro'
+      items:
+      - 'GOLD_INGOT : 2 :: CHEST : 1'
+      - 'DIAMOND : 5 :: ENDER_CHEST : 1 : name:&5Cofre de equipo : lore:&7Solo los miembros del equipo
+        pueden ver : lore:&7lo que se coloque dentro'
+    Extras:
+      name: '&5Extras'
+      display_item: FISHING_ROD
+      lore:
+      - '&7Compra algunos útiles items extra'
+      items:
+      - 'GOLD_INGOT : 1 :: SHEARS : 1'
+      - 'GOLD_INGOT : 16 :: MONSTER_EGG:54 : 1 : name:&cZombie'
+      - 'IRON_INGOT : 200 :: MONSTER_EGG:99 : 1 : name:&6Iron_Golem'
+      - 'DIAMOND : 32 :: ENDER_PEARL : 1'
+      - 'GOLD_INGOT : 8 :: SNOW_BALL : 4'
+      - 'IRON_INGOT : 16 :: WEB : 1'
+      - 'DIAMOND : 4 :: TNT : 1'
+      - 'GOLD_INGOT : 32 :: FISHING_ROD : 1'
+    Specials:
+      name: '&4Especiales'
+      display_item: NETHER_STAR
+      lore:
+      - '&7¡Compra items que pueden cambiar la partida!'
+      items:
+      - 'EMERALD : 4 :: FIREWORK : 1 : name:&6Especial - &cTeleport : lore:&7Te teletransporta
+        a tu base de forma instantánea'
+      - 'EMERALD : 4 :: POTION : 1 : name:&6Special - &cBoost : lore:&7Le da poderosos
+        efectos al jugador : lore:&7por unos segundos'
+      - 'EMERALD : 3 :: BRICK : 1 : name:&6Especial - &bConstructor de Puentes : lore:&7Construye 
+        un puente en la dirección que estés mirando'
+      - 'EMERALD : 3 :: NETHER_STAR : 1 : name:&6Especial - &ePlataforma de Rescate : lore:&7Este
+        item invoca un pequeño lago : lore:&7para prevenir que mueras de caída'
+      - 'EMERALD : 3 :: TNT : 1 : name:&6Especial - &aTNT : lore:&7Lanza una tnt en
+        la dirección : lore:&7que el jugador esté viendo'
+      - 'EMERALD : 2 :: BEACON : 1 : name:&6Especial - &aTienda : lore:&7Invoca una tienda
+      en tus coordenadas : lore:&7La tienda desaparecerá en 15 segundos'
+      - 'EMERALD : 1 :: COMPASS : 1 : name:&6Especial - &aRastreador : lore:&7localiza a los
+        enemigos más cercanos'

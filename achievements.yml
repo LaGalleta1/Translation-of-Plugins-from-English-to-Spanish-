@@ -1,0 +1,200 @@
+Styling:
+  Locked-Material: COAL_BLOCK
+  Locked-Lore: '&cBloqueado'
+  Unlocked-Material: DIAMOND_BLOCK
+  Unlocked-Lore: '&aDesbloqueado'
+  Name: '&b%description%'
+  Prize: '&6Precio: &e%prizeDescription%'
+Achievements:
+  kills:
+    '10':
+      description: ¡Consigue 10 kills!
+      prize-description: ¡Gana 100 coins!
+      executed-command: ew coins add %player% 100
+    '30':
+      description: ¡Consigue 30 kills!
+      prize-description: ¡Gana 300 coins!
+      executed-command: ew coins add %player% 300
+    '50':
+      description: ¡Consigue 50 kills!
+      prize-description: ¡Gana 500 coins!
+      executed-command: ew coins add %player% 500
+    '100':
+      description: ¡Consigue 100 kills!
+      prize-description: ¡Gana 1000 coins!
+      executed-command: ew coins add %player% 1000
+    '150':
+      description: ¡Consigue 150 kills!
+      prize-description: ¡Gana 1500 coins!
+      executed-command: ew coins add %player% 1500
+    '200':
+      description: ¡Consigue 200 kills!
+      prize-description: ¡Gana 2000 coins!
+      executed-command: ew coins add %player% 2000
+    '500':
+      description: ¡Consigue 500 kills!
+      prize-description: ¡Gana 5000 coins!
+      executed-command: ew coins add %player% 5000
+    '1000':
+      description: ¡Consigue 1000 kills!
+      prize-description: ¡Gana 10000 coins!
+      executed-command: ew coins add %player% 10000
+  wins:
+    '1':
+      description: ¡Juega y gana 1 partida!
+      prize-description: ¡Gana 100 coins!
+      executed-command: ew coins add %player% 100
+    '5':
+      description: ¡Juega y gana 5 partidas!
+      prize-description: ¡Gana 500 coins!
+      executed-command: ew coins add %player% 500
+    '10':
+      description: ¡Juega y gana 10 partidas!
+      prize-description: ¡Gana 1000 coins!
+      executed-command: ew coins add %player% 1000
+    '20':
+      description: ¡Juega y gana 20 partidas!
+      prize-description: ¡Gana 2000 coins!
+      executed-command: ew coins add %player% 2000
+    '50':
+      description: ¡Juega y gana 50 partidas!
+      prize-description: ¡Gana 5000 coins!
+      executed-command: ew coins add %player% 5000
+    '100':
+      description: ¡Juega y gana 100 partidas!
+      prize-description: ¡Gana 10000 coins!
+      executed-command: ew coins add %player% 10000
+  projectiles_launched:
+    '50':
+      description: ¡Dispara 50 proyectiles!
+      prize-description: ¡Gana 50 coins!
+      executed-command: ew coins add %player% 50
+    '100':
+      description: ¡Dispara 100 proyectiles!
+      prize-description: ¡Gana 100 coins!
+      executed-command: ew coins add %player% 100
+    '500':
+      description: ¡Dispara 500 proyectiles!
+      prize-description: ¡Gana 500 coins!
+      executed-command: ew coins add %player% 500
+    '1000':
+      description: ¡Dispara 1000 proyectiles!
+      prize-description: ¡Gana 1000 coins!
+      executed-command: ew coins add %player% 1000
+    '3000':
+      description: ¡Dispara 3000 proyectiles!
+      prize-description: ¡Gana 3000 coins!
+      executed-command: ew coins add %player% 3000
+  projectiles_hit:
+    '25':
+      description: ¡Dispara y acierta 25 proyectiles!
+      prize-description: ¡Gana 50 coins!
+      executed-command: ew coins add %player% 50
+    '50':
+      description: ¡Dispara y acierta 50 proyectiles!
+      prize-description: ¡Gana 100 coins!
+      executed-command: ew coins add %player% 100
+    '100':
+      description: ¡Dispara y acierta 100 proyectiles!
+      prize-description: ¡Gana 200 coins!
+      executed-command: ew coins add %player% 200
+    '250':
+      description: ¡Dispara y acierta 250 proyectiles!
+      prize-description: ¡Gana 500 coins!
+      executed-command: ew coins add %player% 500
+    '500':
+      description: ¡Dispara y acierta 500 proyectiles!
+      prize-description: ¡Gana 1000 coins!
+      executed-command: ew coins add %player% 1000
+    '1000':
+      description: ¡Dispara y acierta 1000 proyectiles!
+      prize-description: ¡Gana 2000 coins!
+      executed-command: ew coins add %player% 2000
+  player_rank:
+    '5':
+      description: ¡Llega al rango 5!
+      prize-description: ¡Gana 500 coins!
+      executed-command: ew coins add %player% 500
+    '10':
+      description: ¡Llega al rango 10!
+      prize-description: ¡Gana 1000 coins!
+      executed-command: ew coins add %player% 1000
+    '15':
+      description: ¡Llega al rango 15!
+      prize-description: ¡Gana 1500 coins!
+      executed-command: ew coins add %player% 1500
+    '20':
+      description: ¡Llega al rango 20!
+      prize-description: ¡Gana 2000 coins!
+      executed-command: ew coins add %player% 2000
+    '25':
+      description: ¡Llega al rango 25!
+      prize-description: ¡Gana 2500 coins!
+      executed-command: ew coins add %player% 2500
+    '30':
+      description: ¡Llega al rango 30!
+      prize-description: ¡Gana 3000 coins!
+      executed-command: ew coins add %player% 3000
+  blocks_placed:
+    '50':
+      description: ¡Coloca 50 bloques!
+      prize-description: ¡Gana 50 coins!
+      executed-command: ew coins add %player% 50
+    '200':
+      description: ¡Coloca 200 bloques!
+      prize-description: ¡Gana 200 coins!
+      executed-command: ew coins add %player% 200
+    '400':
+      description: ¡Coloca 400 bloques!
+      prize-description: ¡Gana 400 coins!
+      executed-command: ew coins add %player% 400
+    '1000':
+      description: ¡Coloca 1000 bloques!
+      prize-description: ¡Gana 1000 coins!
+      executed-command: ew coins add %player% 1000
+    '2000':
+      description: ¡Coloca 2000 bloques!
+      prize-description: ¡Gana 2000 coins!
+      executed-command: ew coins add %player% 2000
+  blocks_broken:
+    '50':
+      description: ¡Rompe 50 bloques!
+      prize-description: ¡Gana 50 coins!
+      executed-command: ew coins add %player% 50
+    '200':
+      description: ¡Rompe 200 bloques!
+      prize-description: ¡Gana 200 coins!
+      executed-command: ew coins add %player% 200
+    '400':
+      description: ¡Rompe 400 bloques!
+      prize-description: ¡Gana 400 coins!
+      executed-command: ew coins add %player% 400
+    '1000':
+      description: ¡Rompe 1000 bloques!
+      prize-description: ¡Gana 1000 coins!
+      executed-command: ew coins add %player% 1000
+    '2000':
+      description: ¡Rompe 2000 bloques!
+      prize-description: ¡Gana 2000 coins!
+      executed-command: ew coins add %player% 2000
+  eggs_broken:
+    '1':
+      description: ¡Rompe 1 huevo!
+      prize-description: ¡Gana 50 coins!
+      executed-command: ew coins add %player% 50
+    '10':
+      description: ¡Rompe 10 huevos!
+      prize-description: ¡Gana 500 coins!
+      executed-command: ew coins add %player% 500
+    '25':
+      description: ¡Rompe 25 huevos!
+      prize-description: ¡Gana 1250 coins!
+      executed-command: ew coins add %player% 1250
+    '50':
+      description: ¡Rompe 50 huevos!
+      prize-description: ¡Gana 2500 coins!
+      executed-command: ew coins add %player% 2500
+    '100':
+      description: ¡Rompe 100 huevos!
+      prize-description: ¡Gana 5000 coins!
+      executed-command: ew coins add %player% 5000
