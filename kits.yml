@@ -1,0 +1,341 @@
+Kits:
+  Pyro:
+    item: FLINT_AND_STEEL
+    permission: none
+    rarity: RARE
+    value: 3000
+    helmet: AIR
+    chestplate: 'LEATHER_CHESTPLATE : enchant:PROTECTION_FIRE:5'
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'FLINT_AND_STEEL : 1'
+    - 'LAVA_BUCKET : 2'
+    executed-commands: []
+    description:
+    - '&7Prende fuego a todos y'
+    - '&7míralos arder mientras'
+    - '&7te ries y nadas en la lava'
+  Hunter:
+    item: BOW
+    permission: none
+    rarity: COMMON
+    value: 1000
+    helmet: LEATHER_HELMET
+    chestplate: AIR
+    leggings: LEATHER_LEGGINGS
+    boots: AIR
+    items:
+    - 'BOW : 1'
+    - 'ARROW : 8'
+    - 'COOKED_BEEF : 2'
+    executed-commands: []
+    description:
+    - '&7Recibe un arco normal y obtén al instante'
+    - '&7la habilidad para noquear a otros jugadores'
+    - '&7cuando la partida comience'
+  Troll:
+    item: WEB
+    permission: none
+    rarity: RARE
+    value: 3000
+    helmet: AIR
+    chestplate: IRON_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'WEB : 15'
+    executed-commands: []
+    description:
+    - '&7Atrapa a los jugadores dentro de tu'
+    - '&7red y míralos enloquecer'
+    - '&7¡mientras destruyes su huevo!'
+  Builder+:
+    item: DIAMOND_BLOCK
+    permission: none
+    rarity: LEGENDARY
+    value: 5000
+    helmet: AIR
+    chestplate: CHAINMAIL_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'SANDSTONE : 64'
+    - 'BRICK : 1 : name:&6Especial - &bConstructor de puentes : lore:&7Construye un
+      puente en la dirección que estás mirando'
+    executed-commands: []
+    description:
+    - '&7Eres el maestro de la construcción'
+    - '&7Puedes ordenar a la naturaleza que contruya un puente'
+    - '&7para completar tu camino'
+  Teleporter:
+    item: EYE_OF_ENDER
+    permission: none
+    rarity: LEGENDARY
+    value: 5000
+    helmet: DIAMOND_HELMET
+    chestplate: LEATHER_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'WOOD_SWORD : 1 : enchant:DAMAGE_ALL:1'
+    - 'FIREWORK : 2 : name:&6Especial - &cTeletransportador : lore:&7Te teletransporta
+      a tu base de forma instantánea'
+    executed-commands: []
+    description:
+    - '&7Eres el maestro del tiempo'
+    - '&7Eres capáz de ordenarle al tiempo para que te regrese'
+    - '&7a tu primera localización en el mapa'
+  Builder:
+    item: SANDSTONE
+    permission: none
+    rarity: COMMON
+    value: 1000
+    helmet: LEATHER_HELMET
+    chestplate: AIR
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'WOOD_PICKAXE : 1'
+    - 'SANDSTONE : 32'
+    executed-commands: []
+    description:
+    - '&7Comience con un material simple de construcción'
+    - '&7para construir hacia el medio'
+  Hunter+:
+    item: BOW
+    permission: none
+    rarity: RARE
+    value: 2500
+    helmet: LEATHER_HELMET
+    chestplate: AIR
+    leggings: LEATHER_LEGGINGS
+    boots: AIR
+    items:
+    - 'BOW : 1 : enchant:ARROW_DAMAGE:1'
+    - 'ARROW : 16'
+    - 'BREAD : 1'
+    executed-commands: []
+    description:
+    - '&7Recibe un arco fuerte y obtén'
+    - '&7la habilidad para noquear a otros jugadores'
+    - '&7cuando la partida inicie'
+  Trainer:
+    item: BONE
+    permission: none
+    rarity: COMMON
+    value: 1000
+    helmet: AIR
+    chestplate: LEATHER_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'MONSTER_EGG:95 : 2'
+    - 'BONE : 10'
+    - 'BREAD : 1'
+    executed-commands: []
+    description:
+    - '&7Tamea algunos lobos para que te protegan'
+  Swordsman:
+    item: STONE_SWORD
+    permission: none
+    rarity: COMMON
+    value: 1000
+    helmet: AIR
+    chestplate: LEATHER_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'STONE_SWORD : 1'
+    - 'COOKED_BEEF : 3'
+    executed-commands: []
+    description:
+    - '&7Comienza la batalla preparado y'
+    - '&7usa tu ventaja para eliminar a'
+    - '&7jugadores cercanos!'
+  Miner+:
+    item: IRON_PICKAXE
+    permission: none
+    rarity: RARE
+    value: 2500
+    helmet: 'IRON_HELMET : enchant:PROTECTION_EXPLOSIONS:3'
+    chestplate: AIR
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'IRON_PICKAXE : 1 : enchant:DIG_SPEED:3 : enchant:DURABILITY:3'
+    - 'TNT : 4'
+    - 'COOKED_CHICKEN : 3'
+    executed-commands: []
+    description:
+    - '&7Tu pico encantado te ayudará'
+    - '&7a minar más rapido que nadie'
+    - '&7dandote la ventaja de consegir un'
+    - '&7equipo decente para enfrentarte a otros jugadores'
+  Fisherman:
+    item: FISHING_ROD
+    permission: none
+    rarity: RARE
+    value: 2500
+    helmet: LEATHER_HELMET
+    chestplate: LEATHER_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'FISHING_ROD : 1 : enchant:KNOCKBACK:1 : enchant:DURABILITY:3'
+    - 'COOKED_FISH : 10'
+    executed-commands: []
+    description:
+    - '&7Empieza con una caña de pescar con retroceso'
+    - '&7y con algunos pescados cocidos'
+  Miner:
+    item: STONE_PICKAXE
+    permission: none
+    rarity: COMMON
+    value: 1000
+    helmet: 'IRON_HELMET : enchant:PROTECTION_EXPLOSIONS:2'
+    chestplate: AIR
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'STONE_PICKAXE : 1 : enchant:DIG_SPEED:1 : enchant:DURABILITY:3'
+    - 'COOKED_BEEF : 2'
+    - 'TNT : 1'
+    executed-commands: []
+    description:
+    - '&7Tu pico encantado te ayudará a'
+    - '&7minar más rápido que nadie'
+    - '&7dándote una ventaja de conseguir'
+    - '&7un equipo decente para enfrentarte a otros jugadores'
+  Griefer:
+    item: MONSTER_EGG
+    permission: none
+    rarity: LEGENDARY
+    value: 5000
+    helmet: LEATHER_HELMET
+    chestplate: LEATHER_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'WOOD_SWORD : 1 : enchant:DAMAGE_ALL:1'
+    - 'MONSTER_EGG:50 : 5 : name:&cCreeper'
+    executed-commands: []
+    description:
+    - '&7Spawnea Creepers que causarán un'
+    - '&7daño masivo en el área'
+  Blaze:
+    item: MONSTER_EGG:61
+    permission: none
+    rarity: RARE
+    value: 3000
+    helmet: AIR
+    chestplate: CHAINMAIL_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'WOOD_SWORD : 1'
+    - 'MONSTER_EGG:61 : 2'
+    executed-commands: []
+    description:
+    - '&7¡Spawnea unos cuantos blazes para que te protejan'
+    - '&7y ataquen a los demás jugadores con sus llamas!'
+  Knight:
+    item: IRON_SWORD
+    permission: none
+    rarity: LEGENDARY
+    value: 5000
+    helmet: AIR
+    chestplate: AIR
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'IRON_SWORD : 1 : enchant:DAMAGE_ALL:1'
+    - 'BREAD : 2'
+    executed-commands: []
+    description:
+    - '&7Empieza con una poderosa'
+    - '&7espada de hierro encantada , pero desafortunadamente'
+    - '&7no tendrás protección'
+  Enchanter:
+    item: ENCHANTMENT_TABLE
+    permission: none
+    rarity: RARE
+    value: 2500
+    helmet: IRON_HELMET
+    chestplate: AIR
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'ENCHANTMENT_TABLE : 1'
+    - 'EXP_BOTTLE : 10'
+    - 'GRILLED_PORK : 1'
+    executed-commands: []
+    description:
+    - '&7Recibe una mesa de encantamientos y'
+    - '&7empieza a encantar para protegerte'
+  Snowman:
+    item: SNOW_BALL
+    permission: none
+    rarity: LEGENDARY
+    value: 5000
+    helmet: AIR
+    chestplate: CHAINMAIL_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'WOOD_SPADE : 1 : enchant:DIG_SPEED:2'
+    - 'PUMPKIN : 2'
+    - 'SNOW_BLOCK : 4'
+    executed-commands: []
+    description:
+    - '&7Construye un golem de nieve para que '
+    - '&7puedas farmear bolas de nieve'
+  Armorer+:
+    item: LEATHER_CHESTPLATE
+    permission: none
+    rarity: RARE
+    value: 2500
+    helmet: LEATHER_HELMET
+    chestplate: LEATHER_CHESTPLATE
+    leggings: LEATHER_LEGGINGS
+    boots: LEATHER_BOOTS
+    items:
+    - 'WOOD_AXE : 1'
+    - 'BREAD : 2'
+    executed-commands: []
+    description:
+    - '&7Recibe una armadura completa de cuero'
+    - '&7y esto te ayudará a mantenerte con vida'
+    - '&7en las primeras etapas de la partida'
+  Necromancer:
+    item: MONSTER_EGG:51
+    permission: none
+    rarity: RARE
+    value: 2500
+    helmet: LEATHER_HELMET
+    chestplate: LEATHER_CHESTPLATE
+    leggings: AIR
+    boots: AIR
+    items:
+    - 'MONSTER_EGG:51 : 2'
+    - 'COOKED_BEEF : 3'
+    executed-commands: []
+    description:
+    - '&7Spawnea esqueletos para que'
+    - '&7te protejan de otros jugadores'
+  Armorer:
+    item: LEATHER_CHESTPLATE
+    permission: none
+    rarity: COMMON
+    value: 1000
+    helmet: AIR
+    chestplate: LEATHER_CHESTPLATE
+    leggings: LEATHER_LEGGINGS
+    boots: AIR
+    items:
+    - 'BREAD : 2'
+    executed-commands: []
+    description:
+    - '&7Recibe una pechera de cuero y pantalones'
+    - '&7que te ayudarán a mantenerte con vida'
+    - '&7en las primeras etapas de la partida'

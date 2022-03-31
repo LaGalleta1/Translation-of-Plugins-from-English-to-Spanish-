@@ -1,0 +1,362 @@
+prefix: '&6[&aEggwars&6] '
+Messages:
+  No-Permission: ¡No tienes permisos para hacer esto!
+  Unknown-Command: ¡Comando desconocido! use /ew para ver la lista de comandos
+  Player-Join: ¡Te has unido al lobby!
+  Player-Leave: ¡Acabas de salir de la partida!
+  Lobby-Not-Set: ¡El lobby aun no se ha configurado!
+  Already-In-Game: ¡Ya te encuentras en una partida actualmente!
+  Not-In-Game: ¡No estás dentro de una partida!
+  Not-In-Lobby: ¡Debe estar dentro del lobby para hacer esto!
+  Coins-Update: ¡La cantidad total de tus coins acaba de ser actualizada!
+  Modifier-Update: ¡Tu modificador acaba de ser actualizado!
+  Party-Must-Be-Leader: ¡Solo los líderes de la partida pueden hacer esto!
+  Party-Player-Not-Available: El miembro &b%member% &6no se encuentra disponible en
+    tu partida!
+  No-Available-Arena: ¡No se pudo encontrar ninguna arena disponible!
+  Arena-No-Lobby: ¡La arena aun no tiene un lobby!
+  Must-Have-Empty-Hand: ¡Debes tener la mano vacía para poder hacer esto!
+  Invalid-Mystery-Box: ¡La Mystery box no tiene una configuración válida!
+  Tracking-Player: '&e&lObjetivo: &b%target% &6&lDISTANCIA: &b%distance%'
+  Player-Teleport: '&a¡Acabas de ser teletransportado!'
+  Invalid-Entity: Tipo de entidad inválida.
+  Player-Kill: Has matado a &e%target% &6y acabas de recibir &d%coins% &6coins y &d%exp%
+    &6puntos de xp!
+  Player-Kill-Error: '&cHas matado al jugador &e%player% &cmuchas veces seguidas,
+    por lo tanto esta kill no contará'
+  Player-Spectate: ¡Acabas de entrar en modo espectador!
+  Player-Spectate-Banned: ¡Ya no puedes estar en modo espectador en esta partida!
+  Invalid-Item: Item inválido!
+  Not-Enough-Coins: ¡No tienes  los coins suficientes para comprar esto!
+  Not-Enough-Space: ¡Tu inventario no tiene los espacios suficientes para esto!
+  Item-Purchase: ¡Acabas de &6comprar este item &aexitósamente&f!
+  Item-Select: '&f¡Acabas de seleccionar el item: &a%item%'
+  Item-Owned: '&cYa has comprado este artículo!'
+  Cooldown: ¡Debes esperar &d%seconds% &6segundos para volver a hacer esto&f!
+  Unknown-Player: ¡No se puede encontrar a este jugador!
+  No-Available-Items: ¡No hay items disponibles que puedas desbloquear!
+  Mystery-Box-Item-Unlock: '&aFelicidades! &6acabas de desbloquear el item: %item%'
+  Killstreak-Award: '&a&lHas recibido el premio &e&l%killstreak% &a&lpor tu racha
+    de kills'
+  Party-New-Leader: '&eEl jugador %player% &6es el nuevo líder de la partida!'
+  Party-Unknown-Player: No se pudo encontrar a este jugador en tu partida
+  Party-Self-Invite: ¡No puedes invitarte a ti mismo!
+  Player-Already-Invited: ¡Este jugador ya está invitado!
+  Item-Sell: Has vendido &aexitósamente &6tus items por &b%value% &6coins!
+  Player-Inactive: ¡Este jugador ya no se encuentra en la arena!
+  Command-Block: ¡No es posible usar este comando mientras estás en una partida!
+  Warning-Receive: '&c¡Has recibido una advertencia! (%warnings%/%maxwarnings%)'
+  Warning-Exceed: ¡Has recibido demasiadas advertencias!
+  Player-Rank-Up: ¡Has &6subido al rango &b%rank%&f!
+  Arena-Not-Available: ¡No puedes unirte a esta arena en este momento!
+  Arena-Not-Enough-Teams: ¡La arena no tiene suficientes equipos!
+  Arena-Full: ¡La arena no tiene suficiente espacio!
+  Player-Join-Arena: '&e%player% &6acaba de entrar a la partida! &d(%players%/%maxplayers%)!'
+  Player-Select-Team: ¡Ahora estás en el equipo &6%team%!
+  Player-Select-Team-Error: ¡No puedes unirte a este equipo ahora mismo!
+  Player-Leave-Arena: '&e%player% &6ha abandonado la partida! &d(%players%/%maxplayers%)!'
+  Player-Leave-Team: '&e%player% &6ha abandonado tu equipo! &d(%teamsize%/%maxteamsize%)!'
+  Player-Vote: ¡&d%player% &6ha votado por &e%option% &c(%votes%)&f!
+  Leave-Arena-Error: ¡Solo el líder de la partida puede hacer esto!
+  Team-Notification: ¡Está en el equipo %team%&f!
+  Countdown-Cancel: ¡La cuenta regresiva ha sido cancelada debido a una cantidad insuficiente
+    de jugadores!
+  Arena-Starting-Countdown: ¡La partida comenzará en &b%seconds% &6segundos&f!
+  Arena-Starting-Countdown-Shortening: El temporizador de cuenta regresiva ha saltado
+    a &b%seconds% &6segundos!
+  Arena-Start: '&6&l¡La partida ha comenzado!'
+  Egg-Break-Global-Notification: '&6&l¡Acaban de romper el huevo del equipo &e%team%&f!'
+  Egg-Break-Team-Notification: '&c&lAcaban de romper tu huevo!'
+  Egg-Break-Error: ¡No puedes romper tu propio huevo!
+  Egg-Break-Money-Earn: ¡Acabas de recibir &d%coins% coins &6por romper el huevo del
+    enemigo!
+  Egg-Auto-Destroy: '&c&l¡Los huevos han sido destruidos automáticamente!'
+  Spawner-Upgrade-Cost-Error: No tienes lo suficiente para mejorar este generador
+    (&b%cost%)&f!
+  Spawner-Upgrade-Deny: '&c¡No puedes mejorar este generador!'
+  Spawner-Upgrade-Error: ¡No se pudo mejorar este generador!
+  Spawner-Upgrade: '&aAcabas de mejorar este generador!'
+  Villager-Shop-Open-Error: ¡No se pudo abrir esta tienda!
+  Villager-Shop-No-Required-Item: No tienes &b%cost% &6para comprar este ítem!
+  Spectator-Tip: ¡Como espectador, puedes hacer clic izquierdo en el aire o clic derecho
+    a un bloque para acceder a la &a&nGui de los espectadores&f!
+  Kit-Receive: ¡Has recibido los items del kit &a%kit%&f!
+  Build-Error: ¡No puedes colocar bloques aquí!
+  Game-Cancel: ¡La partida ha sido cancelada porque ha excedido su límite de tiempo!
+  Arena-Borders-Leave: '&c¡No puedes salirte de los límites de la arena!'
+  Arena-Borders-Outside: '&cEstás afuera de los límites de la arena!'
+  Arena-Finish: '&a&lFelicidades! &6¡Acabas de ganar la partida!'
+  Arena-Finish-Prize: ¡Acabas de recibir un total de &d%coins% &6coins por ganar la
+    partida&f!
+  Arena-Player-Eliminate: '&c¡El jugador &e%player% &cha sido eliminado de la partida!'
+  Team-Player-Eliminate: '&6¡El jugador &e%player% &6ha sido eliminado de tu equipo!
+    &d(%teamsize%/%maxteamsize%)!'
+  Team-Elimination: '&l¡El equipo %team% &6&lha sido eliminado&f&l!'
+  Generators-Auto-Upgrade: '&6&l¡Se han mejorado los generadores!'
+  Party-Player-Leave: ¡Acabas de salir de la partida!
+  Party-Player-Leave-Alert: '&6¡El jugador &c%player% &6ha salido de la partida!'
+  Party-Full: ¡Esta partida está llena!
+  Party-Join: '&6¡El jugador &e%player% &6ha entrado a la partida!'
+  Party-Not-Invited: ¡Tu no hás sido invitado a esta partida!
+  Party-Invite-Send: '&6El jugador &e%player% &6ha enviado una invitación a &a%target%'
+  Party-Invite-Receive: Has sido invitado a la partida de &b%leader%&6! Esta invitación
+    va a expirar en &d%seconds% &6segundos!
+  Party-Invitation-Expire: ¡La invitación a la partida ha expirado!
+  Party-Player-Kick: ¡Has sido expulsado!
+  Party-Player-Kick-Alert: '&e%leader% &6ha expulsado a &c%player%'
+  Invalid-Party: Partida inválida.
+  Invalid-Arena: Arena inválida.
+  Block-Break-Below-Team: '&c¡No puedes romper el bloque debajo de tu equipo!'
+  Player-Move: Te has movido! La acción ha sido &ccancelada!
+  Player-Movement-Disabled: ¡No debes moverte por &d%seconds% &6segundos&f!
+  Arrow-Hit: '&e¡&6El jugador &e%player% &6ahora tiene &c%health% %heart%&e!'
+  Reload-Kick: ¡El plugin ha sido recargado! por eso has sido expulsado
+  Booster-Activate: '&a&l¡Un POTENCIADOR %modifier% ha sido activado por %owner% durante
+    %duration% &a&lhora(s)!'
+Death-Messages:
+  FALL: '&6¡El jugador &e%player% &6ha caído hacia su muerte!'
+  ENTITY_ATTACK: '&6¡El jugador &e%player% &6ha muerto por un monstruo!'
+  LAVA: '&6¡El jugador &e%player% &6pensó que nadar en la lava iba a ser divertido!'
+  SUFFOCATION: '&6¡El jugador &e%player% &6se ha sofocado hasta morir!'
+  VOID: '&6¡El jugador &e%player% &6ha caído al vacío!'
+  DROWNING: '&6¡El jugador &e%player% &6murió ahogado!'
+  FIRE: '&6¡El jugador &e%player% &6murió quemado!'
+  FIRE_TICK: '&6¡El jugador &e%player% &6murió quemado!'
+  ENTITY_EXPLOSION: '&6¡El jugador &e%player% &6acaba de explotar en mil pedazos!'
+  BLOCK_EXPLOSION: '&6¡El jugador &e%player% &6acaba de explotar en mil pedazos!'
+  UNKNOWN: '&6¡El jugador &e%player% &6ha sido eliminado por un item desconocido!'
+  PLAYER:
+    SUICIDE: '&6¡El jugador &e%player% &6acaba de eliminarse a si mismo!'
+    OTHER:
+    - '&e¡El jugador &f%player% &eha sido eliminado por &f%killer%&e!'
+    - '&e¡El jugador &f%player% &efué brutalmente asesinado por &f%killer%&e!'
+    - '&e¡El arma de &f%player% &eno aguantó contra el jugador &f%killer%&e!'
+    - '&eEl jugador &f%killer% &eayudó en la muerte de &f%player%!'
+    - '&eEl jugador &f%killer% &eno pudo resistirse de matar a %player%&e!'
+Inventories:
+  Villager-Shop: '&9Tienda de Aldeano'
+  Spawner-Upgrade: '&cMejorar el generador'
+  Team-Selector: '&9Selector de equipos'
+  Arena-Settings: '&9Configuración de arena'
+  Profile-Inventory: '&9Tu perfil'
+  Stats-Inventory: '&9Tus estadísticas'
+  Spectator-Menu: '&eMenú de Espectador'
+  Quit-Inventory: '&c¿Estás seguro que deseas salir?'
+  Game-Inventory: '&9Inventario'
+  Achievements-Inventory: '&cLogros'
+  Confirm-Purchase: '&c¡Confirma tu compra!'
+  Party-Settings: '&cConfiguración de Partida'
+  Party-Players: '&9Jugadores de la partida:'
+  Party-Main-Menu: '&c¡Selecciona tu opción!'
+  Teleporter: '&cTeletransportarse a los jugadores'
+  Boosters: Potenciadores
+Signs:
+  Title: '&a&l[Eggwars]'
+  Leave: '&c&lSalir'
+  Autojoin: '&c&lcAuto Ingreso'
+  Join: '&c&lEntrar'
+  Arena-Color: l
+  Arena-Players: '&9%players%&d&l/&9%max_players%'
+  Leaderboard-Title: '&bTop #&4'
+  Leaderboard-Stat-Color: '4'
+States:
+  WAITING: '&aEsperando'
+  STARTING: '&eIniciando'
+  INGAME: '&cPartida Iniciada'
+  ENDING: '&cFinalizando'
+  ROLLBACKING: '&cCopia de seguridad'
+  QUEUED: '&cEn Cola'
+  DISABLED: '&cDesactivado'
+Items:
+  Quit: 'MAGMA_CREAM : name:&c&lSalir : lore:&7¡Clic para salir del juego!'
+  Play: 'DIAMOND_AXE : name:&6&lJugar : lore:&7¡Clic para entrar a una partida!'
+  Shop: 'EMERALD : name:&a&lTienda : lore:&7¡Clic para comprar nuevos items!'
+  Profile: 'SKULL_ITEM:3 : name:&b&lPerfil : lore:&7¡Clic para ver tu perfil!'
+  Party: 'WORKBENCH : name:&d&lPartida : lore:&7¡Clic para administrar tu partida!'
+  Teleporter: 'COMPASS : name:&b&lTeletransportación : lore:&7¡Click para teletransportarte
+    a otros jugadores!'
+  Autojoin: 'WATCH : name:&b&lEntrada Automática : lore:&7¡Clic para entrar a la mejor
+    : lore:&7partida disponible!'
+  Team-Selector: 'WHITE_WOOL : name:&6&lSelector de Equipos : lore:&7¡Click para entrar
+    a un equipo específico!'
+  Back: 'EYE_OF_ENDER : name:&a&lAtrás : lore:&7¡Clic para volver atrás!'
+  Vote: 'WATCH : name:&d&lVotación : lore:&7¡Clic para votar por la configuración
+    de la partida!'
+  Stats: 'PAPER : name:&aEstadísticas'
+  Inventory: 'CHEST : name:&bInventario'
+  Achievements: 'ENDER_CHEST : name:&dLogros'
+  Confirm: 'STAINED_GLASS:5 : name:&a&lConfirmar'
+  Cancel: 'STAINED_GLASS:14 : name:&c&lCancelar'
+  Next: 'STAINED_GLASS:5 : name:&aSiguiente página'
+  Previous: 'STAINED_GLASS:14 : name:&cPágina anterior'
+  Party-Create: 'BEACON : name:&aCrear : lore:&7¡Clic para crear una partida!'
+  Party-Join: 'CHEST : name:&cEntrar : lore:&7¡Clic para entrar a una partida!'
+  Boosters: 'CHEST : name:&a&lPotenciadores : lore:&6¡Clic para ver los potenciadores
+    activos!'
+Titles:
+  Starting: '&cIniciando en &e%seconds% &csegundos'
+  Starting-Shortening: '&cEl tiempo se acortó a &6%seconds% &csegundos'
+  Start: '&c¡La partida comenzó!'
+  Finish: '&a¡Felicidades!'
+  Egg-Break: '&cTu huevo se rompió!'
+  Team-Elimination: '&cEl equipo &f%team% &cha sido eliminado!'
+  Player-Spectate: '&c¡Ahora estás en modo espectador!'
+  Killstreak: '&cTienes una racha de kills de &b%killstreak%'
+  Generators-Auto-Upgrade: '&6Generadores mejorados automáticamente'
+  Respawn: '&eRespawneando en %time% segundos!'
+Lores:
+  Description: '&eDescripción:'
+  Rarity: '&eRareza: %rarity%'
+  Value: '&eValor: &d%price%$'
+  Armor: '&eArmadura:'
+  Helmet: '&5 - &aCasco: &d%helmet%'
+  Chestplate: '&5 - &aPechera: &d%chestplate%'
+  Leggings: '&5 - &aPantalones: &d%leggings%'
+  Boots: '&5 - &aBotas: &d%boots%'
+  Items: '&eItems:'
+  Item: '&5 - &d%item%'
+  No-Items: '&dNINGUNO'
+  Permission-Needed: '&cRequiere permiso'
+  Selling: '&cVendido por &e%coins% &ccoin(s)!'
+  Lines: '&b&m-------------'
+  Players: '&eJugadores: &b%players%&e/&b%maxplayers%'
+  Type: '&eTipo: &d%type%'
+  State: '&eEstado: %state%'
+  Cost: '&eCosto: &d%cost%'
+  Content: '&eContenido:'
+  Rarities: '&eRareza:'
+  Inventory-Instructions: '&5- &b&nClic izquierdo para equipar &5/ &c&nClic derecho
+    para vender'
+  Generator-Broken: '&cROTO'
+  Generator-Level: '&7 - Nivel: &f%level%'
+  Generator-Speed: '&7 - Velocidad: &f%speed%'
+  Generator-Fully-Upgraded: '&7 - &cMEJORADO AL MÁXIMO'
+  Generator-Upgrade-Description: '&7Para mejorar al nivel %new_level% (&bMejora &a%improvement%)'
+  Generator-Requirement: '&7 - Requiere: &b%requirement%(s)'
+  Generator-Activation: '&7 - Activar Generador'
+  Generator-No-Fix: '&7 - &cNO SE PUEDE ARREGLAR'
+Chat-Prefixes:
+  Rank: '&7[&b%rank%&7] '
+  Shout: '&7[&6Grito&7] '
+  Party: '&7[&dPartida&7] '
+  Lobby: '&7[Lobby] '
+  Spectator: '&7[SPECTADOR] '
+  Team: '&7[%teamname%&7] '
+Lobby-Scoreboard:
+  Title: '&d%pointedstar% &6&lEGGWARS &d%pointedstar%'
+  Content:
+  - '&e&m-----------'
+  - '&a> Kills/Muertes'
+  - '%kills%/%deaths%'
+  - '&a> Coins:'
+  - '%coins%'
+  - '&a> Victorias:'
+  - '%wins%'
+  - '&a> Xp/Rango:'
+  - '%player_exp%/%player_rank%'
+  - ' '
+  - '&a> Kit:'
+  - '%selected_kit%'
+  - '&a> Trail:'
+  - '%selected_trail%'
+  - '&e&m-----------'
+Arena-Scoreboard:
+  Title: '&d%pointedstar% &6&lEGGWARS &d%pointedstar%'
+  Content:
+  - '&e&m-----------'
+  - '&a> %current_event%'
+  - '  %current_event_time%'
+  - ' '
+  - '&a> Jugadores: &f%players%'
+  - '&a> Mapa: &f%arena%'
+  - '&a> Modo: %mode%'
+  - ' '
+  - '%teams%'
+  - ' '
+  - '&7%date%'
+  - '&e&m-----------'
+Scoreboard-Events:
+  Waiting: '&eEsperando...'
+  Starting: Empezando en
+  Upgrades: Mejorando en
+  Deathmatch: '&cCombate a muerte en'
+  Cage-Release: '&bLiberación de la jaula'
+  Ending: '&c&lFinalizando en'
+  Finish: '&6&l¡Buena partida!'
+Match-Conclusion:
+- '%randomcolor%&m==============================='
+- ' '
+- '    &e%star% ¡%winners% &7ganó la partida&e! &e%star%'
+- ' '
+- '&6       Top 1 Asesino - %topkiller1_name% - %topkiller1_kills%'
+- '&e       Top 2 Asesino - %topkiller2_name% - %topkiller2_kills%'
+- '&c       Top 3 Asesino - %topkiller3_name% - %topkiller3_kills%'
+- ' '
+- '%randomcolor%&m==============================='
+Arena-Settings:
+- '&3======== &bConfiguración de Arena &3======='
+- '&b - &6Tiempo: &e&l%votedTime%'
+- '&b - &6Items: &e&l%votedShop%'
+- '&b - &6Salud: &e&l%votedHealth%'
+- '&3============================'
+Stats:
+  KILLS: Kills
+  DEATHS: Muertes
+  KDR: KDR
+  COINS: Coins
+  WINS: Victorias
+  MODIFIER: Modifier
+  PLAY_TIME: Tiempo Jugado
+  PROJECTILES_HIT: Proyectiles acertados
+  PROJECTILES_LAUNCHED: Proyectiles lanzados
+  ACCURACY: Puntería
+  PLAYER_EXP: Experiencia
+  RANK: Rango
+  NEXT_RANK_NEEDED_EXP: Xp necesitada para el siguiente rango
+  BLOCKS_PLACED: Bloques colocados
+  BLOCKS_BROKEN: Bloques rotos
+  EGGS_BROKEN: Huevos rotos
+Stats-Inventory-Styling:
+  Stat: '&a%stat%:'
+  Value: '&e%value%'
+Holographic-Leaderboard-Styling:
+  Header: ''
+  Body: '&7#&d1 &b%stat% &7- %player% - &e%score%'
+  Footer: '&7&m-------------------------'
+Holographic-Stats:
+- '&7&m---&a %player_name% &7Estadísticas &m---'
+- '&bKills &7%arrow% &e%kills%'
+- '&bCoins &7%arrow% &e%coins%'
+- '&bMuertes &7%arrow% &e%deaths%'
+- '&bVictorias &7%arrow% &e%wins%'
+- '&bProyectiles lanzados &7%arrow% &e%projectiles_launched%'
+- '&bProyectiles acertados &7%arrow% &e%projectiles_hit%'
+- '&bExperiencia &7%arrow% &e%player_exp%'
+- '&bRango &7%arrow% &e%player_rank%'
+- '&bBloques colocados &7%arrow% &e%blocks_placed%'
+- '&bBloques rotos &7%arrow% &e%blocks_broken%'
+- '&bHuevos rotos &7%arrow% &e%eggs_broken%'
+- '&7&m----------------------'
+Achievement-Unlock:
+- ' '
+- '%randomcolor%&m-----&4&k AA&e Logro desbloqueado &4&kAA %randomcolor%&m-----'
+- '%randomcolor% Logro -> &6%description%'
+- '%randomcolor% Precio -> &e%prize%'
+- ' '
+Team-Names:
+  RED: '&cRojo'
+  YELLOW: '&eAmarillo'
+  BLUE: '&9Azul'
+  GREEN: '&aVerde'
+  BLACK: '&0Élite'
+  DARK_GREEN: '&2Tripulantes'
+  DARK_RED: '&4Poderosos'
+  GOLD: '&6Hustle'
+  DARK_GRAY: '&8Iconos'
+  DARK_BLUE: '&1Escuadrón'
+  DARK_AQUA: '&3Titanes'
+  DARK_PURPLE: '&5Tríbu'
+  GRAY: '&7Rebeldes'
+  AQUA: '&bNinjas'
+  LIGHT_PURPLE: '&dMaestros'
+  WHITE: '&fVikingos'
